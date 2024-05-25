@@ -1,9 +1,15 @@
 body{
+    font-family: 'Opens Sans', sans-serif;
+}
 
+.acesso-antecipado{
+    background-color: var(--desaturated-blue, hsl(238, 22%, 44%));
+    color: var(--font-white, #fff);
 }
 
 .rodape{
-    background-color: var(--very-dark-blue);
+    background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
+    color: var(--font-white, #fff);
 }
 
 .attribution { font-size: 11px; text-align: center; }
