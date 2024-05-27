@@ -2,15 +2,57 @@ body{
     font-family: 'Opens Sans', sans-serif;
 }
 
+
+.cabecalho ul {
+    display: flex;
+    border: 2px solid coral;
+}
+
+.arquivos-seguros .conteudo-arquivos-seguros,
+.seja-produtivo .conteudo-seja-produtivo{
+    width: 50%;
+    height: 300px;
+}
+
+.arquivos-seguros .imagem-arquivos-seguros img,
+.seja-produtivo .imagem-seja-produtivo img{
+    width: 300px;
+    height: 300px;
+}
+
+.arquivos-seguros{
+    border: 2px solid red;
+}
+
+/* .arquivos-seguros .btn-get-started{
+    display: block;
+} */
+
+.arquivos-seguros>div{
+    display: flex;
+}
+
+.seja-produtivo{
+    color: var(--very-dark-blue, hsl(243, 87%, 12%));
+    display: flex;
+    border: 2px solid yellow;
+}
+
+/* .seja-produtivo .conteudo-seja-produtivo{
+    width: fit-content;
+} */
+
 .acesso-antecipado{
     background-color: var(--desaturated-blue, hsl(238, 22%, 44%));
     color: var(--font-white, #fff);
+    border: 2px solid black;
 }
 
 .rodape{
     background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
     color: var(--font-white, #fff);
+    border: 2px solid green;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
