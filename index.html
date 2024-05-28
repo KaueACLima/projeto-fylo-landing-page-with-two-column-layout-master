@@ -25,11 +25,11 @@
 <body>
 
   <header class="cabecalho">
+    <h1 class="cabecalho-image">
+      <img src="./assets/images/logo.svg" alt="Logo Fylo">
+    </h1>
     <nav>
       <ul>
-        <h1>
-          <img src="./assets/images/logo.svg" alt="Logo Fylo">
-        </h1>
         <li>Features</li>
         <li>Team</li>
         <li>Sign In</li>
@@ -44,19 +44,25 @@
         <p>Fylo stores your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.</p>
+
+        <label for="email"></label>
+        <input type="email" name="email" id="email required" placeholder="Enter your email" />
+
+        <button class="btn-get-started">
+          Get Started
+        </button>
       </div>
-  
+
       <div class="imagem-arquivos-seguros">
         <img src="./assets/images/illustration-1.svg" alt="illustration-1">
       </div>
     </div>
 
-    <button class="btn-get-started">
-      Get Started
-    </button>
-
+    <picture>
+      <source srcset="assets/images/bg-curve-mobile.svg" media="(max-width: 465px)" />
+      <img src="assets/images/bg-curve-desktop.svg" alt="MDN" />
+    </picture>
   </section>
-
 
   <section class="seja-produtivo">
     <div class="conteudo-seja-produtivo">
@@ -65,22 +71,27 @@
         covered for all of your file storage needs.</p>
       <p>Securely share files and folders with friends, family and colleagues for
         live collaboration. No email attachments required!</p>
-  
-      <a href="#">See how Fylo works</a>
-      <img src="./assets/images/icon-arrow.svg" alt="Icon arrow">
-  
-      <img src="./assets/images/icon-quotes.svg" alt="">
-      <p>
-        Fylo has improved our team productivity by an order of magnitude. Since
-        making the switch our team has become a well-oiled collaboration machine.
-      </p>
-  
-      <img src="./assets/images/avatar-testimonial.jpg" alt="">
-  
-      <p>
-        <span>Kyle Burton</span>
-        Founder & CEO, Huddle
-      </p>
+
+      <a href="#">See how Fylo works
+      <img src="./assets/images/icon-arrow.svg" alt="Icon arrow"></a>
+      
+      <div class="conteudo-relato-cliente">
+
+        <img src="./assets/images/icon-quotes.svg" alt="">
+        <p>
+          Fylo has improved our team productivity by an order of magnitude. Since
+          making the switch our team has become a well-oiled collaboration machine.
+        </p>
+
+        <div class="descricao-cliente">
+          <img src="./assets/images/avatar-testimonial.jpg" alt="">
+
+          <p>
+            <span>Kyle Burton</span>
+            Founder & CEO, Huddle
+          </p>
+        </div>
+      </div>
     </div>
     <div class="imagem-seja-produtivo">
       <img src="./assets/images/illustration-2.svg" alt="illustration-2">
@@ -88,18 +99,24 @@
   </section>
 
   <section class="acesso-antecipado">
-    <h2>Get early access today</h2>
-    <p>
-      It only takes a minute to sign up and our free starter tier is extremely generous.
-      If you have any questions, our support team would be happy to help you.
-    </p>
+  
+    <div class="conteudo-acesso-antecipado">
+      <h2>Get early access today</h2>
+      <p>
+        It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
 
-    <label for="email"></label>
+    <div class="acessar">
+      <label for="email"></label>
     <input type="email" name="email" id="email required" placeholder="email@example.com" />
-
-    <button>
+    <button class="btn-pegar-gratis">
       Get Started For Free
     </button>
+    </div>
+
+
   </section>
 
   <footer class="rodape">
