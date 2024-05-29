@@ -228,9 +228,13 @@ p:nth-child(3) {
 
 }
 
+
 .rodape .rodape-info .logo-rodape{
     width: 150px;
     height: 60px;
+
+    display: block;
+
     margin-bottom: 1rem;
 }
 
