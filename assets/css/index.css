@@ -4,14 +4,6 @@ body {
   background: var(--light-grayish-blue);
 }
 
-.cabecalho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem;
-  /* border: 2px solid coral; */
-}
-
 h2 {
   font-family: "Raleway", sans-serif;
   font-size: 2.3rem;
@@ -20,6 +12,13 @@ h2 {
   line-height: 3.5rem;
 
   margin-bottom: 2rem;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 1.5rem 1rem 3.5rem;
 }
 
 .cabecalho ul {
@@ -42,7 +41,6 @@ h2 {
 .arquivos-seguros {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid red; */
 }
 
 .arquivos-seguros .conteudo {
@@ -91,7 +89,6 @@ h2 {
   justify-content: space-between;
 
   padding: 4rem;
-  /* border: 2px solid yellow; */
 }
 
 .seja-produtivo .conteudo-seja-produtivo p:nth-child(2),
@@ -172,8 +169,6 @@ p:nth-child(3) {
   justify-content: space-around;
 
   padding: 4rem;
-
-  /* border: 2px solid black; */
 }
 
 .acesso-antecipado .conteudo-acesso-antecipado {
@@ -272,72 +267,6 @@ footer{
 .rodape-conteudo .rodape-redes-sociais .rodade-link i{
   font-size: 1.25rem;
 }
-/* .rodape {
-  background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
-  color: var(--font-white, #fff);
-
-  padding: 4rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.rodape .rodape-info{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.rodape .rodape-imagem-logo{
-
-  display: flex;
-  flex-direction: column;
-}
-
-.rodape .rodape-info .imagem-logo {
-  width: 200px;
-  height: 65px;
-  display: block;
-  margin-bottom: 1.8rem;
-}
-
-.rodape .rodape-info img{
-    width: 20px;
-    height: 20px;
-}
-
-.rodape .rodape-info .rodape-info-contato{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-}
-
-.rodape-info-sobre{
-  display: flex;
-  align-items: flex-end;
-  gap: 5rem;
-}
-
- .rodape-rede-sociais{
-  display: flex;
-  gap: 1rem;
-  align-items: flex-end;
-
-
-}
-
-.rodape-rede-sociais a i{
-  font-size: 1.2rem;
-  color: var(--font-white);
-
-  border: 1px solid;
-  border-radius: 50%;
-
-  padding: .5rem;
-} */
 
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
