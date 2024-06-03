@@ -1,7 +1,7 @@
 body {
   font-family: "Opens Sans", sans-serif;
 
-  background: var(--light-grayish-blue);
+  background: var(--light-grayish-blue, hsl(240, 75%, 98%));
 }
 
 h2 {
@@ -18,6 +18,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 2.5rem 1.5rem 1rem 3.5rem;
 }
 
@@ -47,9 +48,9 @@ h2 {
   display: flex;
   justify-content: space-between;
 
-  color: var(--very-dark-blue);
+  color: var(--very-dark-blue, hsl(243, 87%, 12%));
 
-  padding: 4rem;
+  padding: 6rem 4rem 2rem 4rem;
 }
 
 .arquivos-seguros .conteudo .conteudo-arquivos-seguros p {
@@ -61,8 +62,10 @@ h2 {
 
 .arquivos-seguros .conteudo .conteudo-arquivos-seguros input {
   width: 50%;
+
   border: 1px solid #7e7c7c;
   border-radius: 0.3rem;
+
   padding: 0.8rem;
 }
 
@@ -71,10 +74,12 @@ h2 {
 }
 
 .arquivos-seguros .conteudo .conteudo-arquivos-seguros .btn-get-started, .acesso-antecipado .acessar .btn-pegar-gratis {
-  background-color: var(--bright-blue);
-  color: var(--font-white);
+  background-color: var(--bright-blue, hsl(224, 93%, 58%));
+  color: var(--font-white, #fff);
+
   border: none;
   border-radius: 0.3rem;
+
   padding: 0.9rem 2.8rem;
 }
 
@@ -88,7 +93,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 
-  padding: 4rem;
+  padding: 3rem 4rem;
 }
 
 .seja-produtivo .conteudo-seja-produtivo p:nth-child(2),
@@ -97,7 +102,7 @@ p:nth-child(3) {
 }
 
 .seja-produtivo .conteudo-seja-produtivo a{
-    color: var(--bright-blue);
+    color: var(--bright-blue, hsl(224, 93%, 58%));
     border-bottom: 1px solid;
 
     margin-bottom: 1rem;
@@ -168,7 +173,7 @@ p:nth-child(3) {
   align-items: center;
   justify-content: space-around;
 
-  padding: 4rem;
+  padding: 5rem 4rem;
 }
 
 .acesso-antecipado .conteudo-acesso-antecipado {
@@ -183,7 +188,7 @@ p:nth-child(3) {
 }
 
 .acesso-antecipado .conteudo-acesso-antecipado p{
-    color: var(--light-gray);
+    color: var(--light-gray, hsl(0, 0%, 75%));
     font-weight: normal;
 }
 
@@ -213,8 +218,9 @@ footer{
 .rodape-conteudo{
   background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
   display: grid;
+  align-items: baseline;
   grid-template-columns: repeat(4,1fr);
-  padding: 3rem 3.5rem;
+  padding: 6rem 4rem;
 }
 
 .rodape-conteudo .logo-footer{
@@ -267,6 +273,3 @@ footer{
 .rodape-conteudo .rodape-redes-sociais .rodade-link i{
   font-size: 1.25rem;
 }
-
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
