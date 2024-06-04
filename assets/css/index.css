@@ -2,18 +2,20 @@ body {
   font-family: "Opens Sans", sans-serif;
 
   background: var(--light-grayish-blue, hsl(240, 75%, 98%));
+  color: var(--very-dark-blue, hsl(243, 87%, 12%));
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: 700;
 
-  line-height: 3.5rem;
+  line-height: 4rem;
 
   margin-bottom: 2rem;
 }
 
+/*Sessão Cabecalho*/
 .cabecalho {
   display: flex;
   align-items: center;
@@ -22,58 +24,75 @@ h2 {
   padding: 2.5rem 1.5rem 1rem 3.5rem;
 }
 
-.cabecalho ul {
+.cabecalho .cabecalho-lista {
   display: flex;
   gap: 4rem;
 }
 
-.arquivos-seguros .conteudo-arquivos-seguros,
-.seja-produtivo .conteudo-seja-produtivo {
-  width: 50%;
-  height: 300px;
+.cabecalho .cabecalho-lista li a{
+  color: #1d1c1c;
+}
+/*Sessão Cabecalho*/
+
+/*Sessão Arquivos seguros*/
+.arquivos-seguros{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 2.5rem;
 }
 
-.arquivos-seguros .imagem-arquivos-seguros img,
-.seja-produtivo .imagem-seja-produtivo img {
+.arquivos-seguros .arquivos-seguros-conteudo{
+  width: 40%;
+  margin: auto 0;
+}
+
+.arquivos-seguros .arquivos-seguros-imagem img{
   width: 500px;
   height: 500px;
 }
 
-.arquivos-seguros {
-  display: flex;
-  flex-direction: column;
+.arquivos-seguros-conteudo h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  line-height: 3rem;
+
+  margin-bottom: 1rem;
 }
 
-.arquivos-seguros .conteudo {
-  display: flex;
-  justify-content: space-between;
-
-  color: var(--very-dark-blue, hsl(243, 87%, 12%));
-
-  padding: 6rem 4rem 2rem 4rem;
-}
-
-.arquivos-seguros .conteudo .conteudo-arquivos-seguros p {
-  font-size: 1.2rem;
+.arquivos-seguros-conteudo p{
+  font-size: 1.1rem;
   font-weight: 300;
 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.arquivos-seguros .conteudo .conteudo-arquivos-seguros input {
+.arquivos-seguros-conteudo form{
+  display: flex;
+  gap: 1rem;
+}
+
+.arquivos-seguros-conteudo form input{
   width: 50%;
 
   border: 1px solid #7e7c7c;
   border-radius: 0.3rem;
 
-  padding: 0.8rem;
+  padding: .7rem;
 }
 
-.arquivos-seguros .conteudo .conteudo-arquivos-seguros input::placeholder {
+.arquivos-seguros-conteudo form input::placeholder{
   color: #ccc;
 }
 
-.arquivos-seguros .conteudo .conteudo-arquivos-seguros .btn-get-started, .acesso-antecipado .acessar .btn-pegar-gratis {
+.arquivos-seguros-conteudo form button{
+  width: 35%;
+
   background-color: var(--bright-blue, hsl(224, 93%, 58%));
   color: var(--font-white, #fff);
 
@@ -81,195 +100,19 @@ h2 {
   border-radius: 0.3rem;
 
   padding: 0.9rem 2.8rem;
+
+  cursor: pointer;
 }
 
-.arquivos-seguros picture img {
-  width: 100%;
+.arquivos-seguros-conteudo form button:hover{
+  background-color: hsl(224, 94%, 66%);
 }
+/*Sessão Arquivos seguros*/
 
-.seja-produtivo {
-  color: var(--very-dark-blue, hsl(243, 87%, 12%));
+aside picture img {
+  width: fit-content;
 
-  display: flex;
-  justify-content: space-between;
-
-  padding: 3rem 4rem;
-}
-
-.seja-produtivo .conteudo-seja-produtivo p:nth-child(2),
-p:nth-child(3) {
-  margin-bottom: 1rem;
-}
-
-.seja-produtivo .conteudo-seja-produtivo a{
-    color: var(--bright-blue, hsl(224, 93%, 58%));
-    border-bottom: 1px solid;
-
-    margin-bottom: 1rem;
-}
-.seja-produtivo .conteudo-seja-produtivo .conteudo-relato-cliente {
-  width: 300px;
-  height: 150px;
-
-  border-radius: .2rem;
-
-  -webkit-box-shadow: -1px 1px 10px 1px rgba(126,126,133,1);
-  -moz-box-shadow: -1px 1px 10px 1px rgba(126,126,133,1);
-  box-shadow: -1px 1px 10px 1px rgba(126,126,133,1);
-
-  margin-top: 2rem;
-
-  padding: 1rem;
-}
-
-.seja-produtivo .conteudo-relato-cliente p {
-  font-size: 0.8rem;
-}
-
-.seja-produtivo
-  .conteudo-seja-produtivo
-  .conteudo-relato-cliente
-  .descricao-cliente {
-  display: flex;
-  gap: 1rem;
-}
-
-.seja-produtivo
-  .conteudo-seja-produtivo
-  .conteudo-relato-cliente
-  .descricao-cliente
-  img {
-  width: 35px;
-  height: 35px;
-
-  border-radius: 50%;
-}
-
-.seja-produtivo
-  .conteudo-seja-produtivo
-  .conteudo-relato-cliente
-  .descricao-cliente
-  span {
-  display: block;
-
-  font-size: 0.7rem;
-  font-weight: 800;
-}
-
-.seja-produtivo
-  .conteudo-seja-produtivo
-  .conteudo-relato-cliente
-  .descricao-cliente
-  p {
-  font-size: 0.6rem;
-  font-weight: 300;
-}
-
-.acesso-antecipado {
-  background-color: var(--desaturated-blue, hsl(238, 22%, 44%));
-  color: var(--font-white, #fff);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  padding: 5rem 4rem;
-}
-
-.acesso-antecipado .conteudo-acesso-antecipado {
-    width: 500px;
-}
-
-.acesso-antecipado .conteudo-acesso-antecipado h2{
-    font-size: 2rem;
-    font-weight: 500;
-
-    margin-bottom: 1rem;
-}
-
-.acesso-antecipado .conteudo-acesso-antecipado p{
-    color: var(--light-gray, hsl(0, 0%, 75%));
-    font-weight: normal;
-}
-
-.acesso-antecipado .acessar{
-    width: 500px;
-}
-
-.acesso-antecipado .acessar input{
-    display: block;
-    border: none;
-    border-radius: 0.3rem;
-    width: 400px;
-    padding: .7rem;
-    margin-bottom: 1rem;
-}
-
-.acesso-antecipado .acessar input::placeholder{
-
-    color: #ccc;
-}
-
-footer{
-  width: 100%;
-  color: var(--font-white, #fff);
-}
-
-.rodape-conteudo{
-  background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
-  display: grid;
-  align-items: baseline;
-  grid-template-columns: repeat(4,1fr);
-  padding: 6rem 4rem;
-}
-
-.rodape-conteudo .logo-footer{
-  margin-bottom: 1rem;
-}
-
-.rodape-conteudo .rodape-informacoes{
-  width: 250px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.rodape-conteudo .rodape-informacoes img{
-  width: 20px;
-  height: 20px;
-}
-
-.rodape-conteudo .rodape-redes-sociais{
-  display: flex;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-
-.rodape-conteudo .rodape-lista{
-  display: flex;
-  flex-direction: column;
-  gap: .50rem;
-}
-
-.rodape-conteudo .rodape-lista .rodape-link{
-  color: var(--font-white, #fff);
-}
-
-.rodape-conteudo .rodape-redes-sociais .rodade-link{
-  width: 2.5rem;
-  height: 2.5rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: var(--font-white, #fff);
-  border-radius: 50%;
-  border: 1px solid;
-
-  transition: all .3s;
-}
-
-.rodape-conteudo .rodape-redes-sociais .rodade-link i{
-  font-size: 1.25rem;
+  filter: drop-shadow(0 0 20px #8f8888);
+  /* -webkit-box-shadow: 5px 5px 37px 17px #8f8888; 
+  box-shadow: 5px 5px 37px 17px #8f8888;; */
 }

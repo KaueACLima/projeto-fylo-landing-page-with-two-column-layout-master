@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .cabecalho {
         width: 70vh;
 
