@@ -154,6 +154,10 @@ aside picture img {
   width: 300px;
   height: 150px;
 
+  margin-left: 5%;
+
+  background: var(--light-grayish-blue, hsl(240, 75%, 98%));
+
   border-radius: .2rem;
 
   -webkit-box-shadow: -1px 1px 10px 1px rgba(146, 143, 143, 0.212);
@@ -209,7 +213,7 @@ aside picture img {
 }
 
 .acesso-antecipado-conteudo{
-  width: 40%;
+  width: 50%;
 
   padding: 6rem;
 }
@@ -233,6 +237,10 @@ aside picture img {
   padding: .7rem;
 }
 
+.acesso-antecipado-formulario input::placeholder{
+  color: #ccc;
+}
+
 .acesso-antecipado-formulario button{
   width: 35%;
 
@@ -242,7 +250,7 @@ aside picture img {
   border: none;
   border-radius: 0.3rem;
 
-  padding: 0.9rem 2.8rem;
+  padding: 1rem 2rem;
 
   cursor: pointer;
 
@@ -253,3 +261,50 @@ aside picture img {
     background-color: hsl(224, 94%, 66%);
 }
 /*Sessão acesso antecipado*/
+
+/*Sessão rodape*/
+.rodape{
+  width: 100%;
+
+  color: var(--font-white, #fff);
+}
+
+.rodape-conteudo{
+  background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+
+  padding: 6rem 4rem;
+
+  align-items: baseline;
+}
+
+.rodape-conteudo .logo{
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.rodape-conteudo .contato ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  
+}
+
+.rodape-conteudo .contato li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rodape-lista ul li a{
+  display: flex;
+  flex-direction: column;
+ justify-content: baseline;
+
+  color: var(--font-white);
+}
+/*Sessão rodape*/
