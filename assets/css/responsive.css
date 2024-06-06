@@ -1,11 +1,21 @@
-@media (max-width: 375px) {
-    .cabecalho {
-        width: 70vh;
+@media(min-width: 400px) and (max-width: 768px){
+    .cabecalho{
+        width: 100vh;
+        justify-content: center;
+    }
 
-        font-size: .8rem;
-
-        gap: 2rem;
-
-        padding: 2rem 1rem 1rem 2rem;
+    .cabecalho .cabecalho-lista {
+            display: flex;
+            justify-content: end;
+            gap: 2rem;
+          }
+    
+    .arquivos-seguros{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .seja-produtivo{
+        flex-direction: column-reverse;
     }
 }   
