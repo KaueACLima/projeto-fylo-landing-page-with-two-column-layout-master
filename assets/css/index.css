@@ -307,4 +307,23 @@ aside picture img {
 
   color: var(--font-white);
 }
+
+.rodape-redes-sociais{
+  display: flex;
+  gap: 2rem;
+}
+
+.rodape-redes-sociais li {
+  width: 32px;
+  hi
+}
+
+.rodape-redes-sociais li i{
+  font-size: 1.2rem;
+
+  border: 1px solid;
+  border-radius: 50%;
+
+  padding: 1rem;
+}
 /*Sessão rodape*/
