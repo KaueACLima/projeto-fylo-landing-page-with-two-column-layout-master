@@ -1,7 +1,8 @@
 @media(min-width: 400px) and (max-width: 768px){
     .cabecalho{
         width: 100vh;
-        justify-content: center;
+        justify-content: space-around;
+        padding: 1rem;
     }
 
     .cabecalho .cabecalho-lista {
@@ -17,5 +18,10 @@
     
     .seja-produtivo{
         flex-direction: column-reverse;
+    }
+
+    .rodape-conteudo{
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
     }
 }   
