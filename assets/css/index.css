@@ -1,3 +1,8 @@
+html{
+  font-size: 16px;
+
+}
+
 body {
   font-family: "Opens Sans", sans-serif;
 
@@ -41,18 +46,21 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  margin: 3rem;
 }
 
 .arquivos-seguros .arquivos-seguros-conteudo {
-  padding: 1rem;
-  margin: 2rem auto;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
 }
 
+  .arquivos-seguros .arquivos-seguros-imagem{
+    width: 40%;
+  }
+
 .arquivos-seguros .arquivos-seguros-imagem img {
-  width: 500px;
-  height: 500px;
+  width: 100vh;
 }
 
 .arquivos-seguros-conteudo h1 {
@@ -108,220 +116,3 @@ h2 {
   background-color: hsl(224, 94%, 66%);
 }
 /*Sessão Arquivos seguros*/
-
-/*Aside imagem*/
-aside picture img {
-  width: 100%;
-
-  filter: drop-shadow(0 -31px 20px #928f8f36);
-}
-/*Aside imagem*/
-
-/*Sessão seja produtivo*/
-.seja-produtivo {
-  background: var(--light-grayish-blue, hsl(240, 75%, 98%));
-
-  width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  margin: 3rem;
-}
-
-.seja-produtivo-conteudo {
-  margin: 0 auto;
-}
-
-.seja-produtivo-conteudo p {
-  margin-bottom: 1rem;
-}
-
-.seja-produtivo-conteudo a {
-  display: inline-block;
-
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-
-  color: var(--bright-blue, hsl(224, 93%, 58%));
-
-  border-bottom: 1px solid;
-
-  margin-bottom: 1rem;
-}
-
-.seja-produtivo-conteudo a:hover {
-  color: var(--moderate-cyan, hsl(170, 45%, 43%));
-}
-
-/*Aside conteúdo relato cliente*/
-.conteudo-relato-cliente {
-  width: 300px;
-  height: 150px;
-
-  margin-left: 5%;
-
-  background: var(--light-grayish-blue, hsl(240, 75%, 98%));
-
-  border-radius: 0.2rem;
-
-  -webkit-box-shadow: -1px 1px 10px 1px rgba(146, 143, 143, 0.212);
-  -moz-box-shadow: -1px 1px 10px 1px rgba(146, 143, 143, 0.212);
-  box-shadow: -1px 1px 10px 1px rgba(146, 143, 143, 0.212);
-
-  margin-top: 2rem;
-
-  padding: 1rem;
-}
-
-.conteudo-relato-cliente p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-}
-
-.conteudo-relato-cliente .descricao-cliente {
-  display: flex;
-  gap: 1rem;
-}
-
-.conteudo-relato-cliente .descricao-cliente img {
-  width: 35px;
-  height: 35px;
-
-  border-radius: 50%;
-}
-
-.conteudo-relato-cliente .descricao-cliente ul {
-  font-size: 0.6rem;
-}
-
-.conteudo-relato-cliente .descricao-cliente ul li:first-child {
-  font-weight: bold;
-}
-/*Aside conteúdo relato cliente*/
-
-.seja-produtivo-imagem img {
-  width: 500px;
-  height: 500px;
-}
-/*Sessão seja produtivo*/
-
-/*Sessão acesso antecipado*/
-.acesso-antecipado {
-  background: var(--desaturated-blue, hsl(238, 22%, 44%));
-
-  color: var(--font-white);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.acesso-antecipado-conteudo {
-  width: 50%;
-
-  padding: 6rem;
-}
-
-.acesso-antecipado-formulario {
-  width: 40%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-
-.acesso-antecipado-formulario input {
-  width: 65%;
-
-  border: 1px solid #7e7c7c;
-  border-radius: 0.3rem;
-
-  padding: 0.7rem;
-}
-
-.acesso-antecipado-formulario input::placeholder {
-  color: #ccc;
-}
-
-.acesso-antecipado-formulario button {
-  width: 35%;
-
-  background-color: var(--bright-blue, hsl(224, 93%, 58%));
-  color: var(--font-white, #fff);
-
-  border: none;
-  border-radius: 0.3rem;
-
-  padding: 1rem 2rem;
-
-  cursor: pointer;
-
-  transition: 0.3s ease-in-out;
-}
-
-.acesso-antecipado-formulario button:hover {
-  background-color: hsl(224, 94%, 66%);
-}
-/*Sessão acesso antecipado*/
-
-/*Sessão rodape*/
-.rodape {
-  width: 100%;
-
-  color: var(--font-white, #fff);
-}
-
-.rodape-conteudo {
-  background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-
-  padding: 6rem 4rem;
-
-  align-items: baseline;
-}
-
-.rodape-conteudo .logo {
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.rodape-conteudo .contato ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.rodape-conteudo .contato li {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.rodape-lista ul li a {
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-
-  color: var(--font-white);
-}
-
-.rodape-redes-sociais {
-  display: flex;
-  gap: 2rem;
-}
-
-.rodape-redes-sociais li i {
-  font-size: 1.2rem;
-
-  border: 1px solid;
-  border-radius: 50%;
-
-  padding: 1rem;
-}
-/*Sessão rodape*/
