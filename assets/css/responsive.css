@@ -4,11 +4,15 @@
     padding: 2rem;
   }
 
+  .cabecalho-image img{
+    width: 6.12em;
+  }
+
   .cabecalho-lista {
     gap: 1rem;
   }
 
-.cabecalho-lista li {
+  .cabecalho-lista li {
     font-size: 1rem;
 
     display: flex;
@@ -19,12 +23,28 @@
 
   .arquivos-seguros {
     flex-direction: column-reverse;
-    justify-content: center;
-
     width: 100%;
   }
 
-  .arquivos-seguros .arquivos-seguros-conteudo {
-    width: 100%;
+  .arquivos-seguros-conteudo, .arquivos-seguros-imagem {
+    width: 90%;
   }
+
+  .arquivos-seguros-conteudo h1{
+    font-size: 2rem;
+    
+    text-align: center;
+  }
+
+  .arquivos-seguros-conteudo form{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arquivos-seguros-conteudo form input, .arquivos-seguros-conteudo form button{
+    width: 80%;
+  }
+
+  .arquivos-seguros-conteudo form button{}
+
 }

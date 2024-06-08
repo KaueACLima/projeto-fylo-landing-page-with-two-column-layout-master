@@ -1,6 +1,5 @@
-html{
+html {
   font-size: 16px;
-
 }
 
 body {
@@ -29,12 +28,12 @@ h2 {
   padding: 2.5rem 1.5rem 1rem 3.5rem;
 }
 
-.cabecalho .cabecalho-lista {
+.cabecalho-lista {
   display: flex;
   gap: 4rem;
 }
 
-.cabecalho .cabecalho-lista li a {
+.cabecalho-lista li a {
   color: #1d1c1c;
 }
 /*Sessão Cabecalho*/
@@ -48,18 +47,18 @@ h2 {
   justify-content: space-around;
 }
 
-.arquivos-seguros .arquivos-seguros-conteudo {
+.arquivos-seguros-conteudo {
   width: 40%;
 
   display: flex;
   flex-direction: column;
 }
 
-  .arquivos-seguros .arquivos-seguros-imagem{
-    width: 40%;
-  }
+.arquivos-seguros-imagem {
+  width: 40%;
+}
 
-.arquivos-seguros .arquivos-seguros-imagem img {
+.arquivos-seguros-imagem img {
   width: 100vh;
 }
 
@@ -116,4 +115,3 @@ h2 {
   background-color: hsl(224, 94%, 66%);
 }
 /*Sessão Arquivos seguros*/
-
