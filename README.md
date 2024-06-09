@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://github.com/KaueACLima/projeto-discover-dev-links)
+- [Acesse o projeto finalizado, online](https://kaueaclima.github.io/projeto-fylo-landing-page-with-two-column-layout-master/)
 
 - [Acesse o portifólio finalizado](https://github.com/KaueACLima/projeto-fylo-landing-page-with-two-column-layout-master)
 
