@@ -261,11 +261,10 @@ h2 {
 
       .rodape-conteudo {
         background-color: var(--very-dark-blue, hsl(243, 87%, 12%));
-      
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
-      
+        
+        display: flex;
+        justify-content: space-around;
+
         padding: 6rem 0;
       
         align-items: baseline;
@@ -279,20 +278,40 @@ h2 {
         max-width: 100%;
       }
 
-      .rodape-conteudo .contato ul {
+      .rodape-conteudo .contato{
         display: flex;
-        justify-items: end;
         flex-direction: column;
         gap: 1rem;
       }
 
-      .rodape-conteudo .contato li {
+      .rodape-conteudo .contato .imagem-contato{
         display: flex;
-        align-items: center;
         gap: 1rem;
+      }
+
+      .rodape-lista ul{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        gap: .5rem;
       }
 
       .rodape-lista ul li a {
         color: var(--font-white);
+      }
+      
+      .rodape-redes-sociais {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+      }
+      
+      .rodape-redes-sociais li i {
+        font-size: 1.2rem;
+      
+        border: 1px solid;
+        border-radius: 50%;
+      
+        padding: 1rem;
       }
         /*Fim Rodapé*/

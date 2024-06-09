@@ -97,6 +97,21 @@
   /*Fim Acesso Antecipado*/
 
   /*Rodapé*/
-  
+  .rodape-conteudo{
+    flex-direction: column;
+    align-items: start;
+
+    padding: 3rem 2rem;
+  }
+
+  .rodape-conteudo .contato,
+  .rodape-lista ul{
+    margin-bottom: 2.5rem;
+    gap: 1rem;
+  }
+
+  .rodape-redes-sociais ul{ 
+    align-items: center;
+  }
   /* Fim Rodapé*/
 }
