@@ -251,11 +251,6 @@
     align-items: baseline;
   }
   
-  .rodape-conteudo .logo {
-    display: block;
-    margin-bottom: 1rem;
-  }
-  
   .rodape-conteudo .contato ul {
     display: flex;
     flex-direction: column;

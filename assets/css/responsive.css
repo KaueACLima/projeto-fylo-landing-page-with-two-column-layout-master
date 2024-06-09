@@ -1,10 +1,11 @@
 @media screen and (max-width: 48em) {
+  /*Cabeçalho*/
   .cabecalho {
     max-width: 100%;
     padding: 2rem;
   }
 
-  .cabecalho-image img{
+  .cabecalho-image img {
     width: 6.12em;
   }
 
@@ -20,31 +21,82 @@
     justify-content: flex-end;
     gap: 0.3rem;
   }
+  /*Fim Cabeçalho*/
 
-  .arquivos-seguros {
+  .arquivos-seguros,
+  .seja-produtivo {
     flex-direction: column-reverse;
     width: 100%;
   }
 
-  .arquivos-seguros-conteudo, .arquivos-seguros-imagem {
+  .arquivos-seguros-conteudo,
+  .seja-produtivo-conteudo{
     width: 90%;
   }
 
-  .arquivos-seguros-conteudo h1{
+  .arquivos-seguros-imagem,
+  .seja-produtivo-imagem{
+    width: 90%;
+
+    margin: 1rem;
+  }
+
+  /*Arquivos Seguros*/
+  .arquivos-seguros-conteudo h1 {
     font-size: 2rem;
-    
+
     text-align: center;
   }
 
-  .arquivos-seguros-conteudo form{
+  .arquivos-seguros-conteudo p{
+    text-align: center;
+  }
+
+  .arquivos-seguros-conteudo form {
     flex-direction: column;
     align-items: center;
   }
 
-  .arquivos-seguros-conteudo form input, .arquivos-seguros-conteudo form button{
+  .arquivos-seguros-conteudo form input,
+  .arquivos-seguros-conteudo form button {
     width: 80%;
   }
+  /*Fim Arquivos Seguros*/
 
-  .arquivos-seguros-conteudo form button{}
+  /*Seja Produtivo*/
+  .seja-produtivo-conteudo{
+    align-items: center;
+  }
 
+  .seja-produtivo-conteudo h2{
+    font-size: 1.3rem;
+  }
+
+  .seja-produtivo-conteudo p{
+    font-weight: 400;
+    color: var(--light-gray, hsl(0, 0%, 75%));
+  }
+  /*Fim Seja Produtivo*/
+
+  /*Acesso Antecipado*/
+  .acesso-antecipado{
+    flex-direction: column;
+
+    padding: 2.5rem 2rem;
+  }
+
+  .acesso-antecipado-conteudo{
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .acesso-antecipado-conteudo,
+  .acesso-antecipado-formulario button{
+    width: 100%;
+  }
+  /*Fim Acesso Antecipado*/
+
+  /*Rodapé*/
+  
+  /* Fim Rodapé*/
 }
